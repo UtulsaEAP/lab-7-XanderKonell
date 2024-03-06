@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def courseGrade():
     
     # TODO: Declare any necessary variables here. 

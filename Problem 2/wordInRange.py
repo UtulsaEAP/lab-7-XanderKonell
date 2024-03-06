@@ -1,3 +1,5 @@
+#Name: Xander Konell
+#Hour: 3
 def wordInRange():
     #Type your code here
     return
