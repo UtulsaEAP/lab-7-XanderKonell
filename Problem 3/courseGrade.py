@@ -13,5 +13,3 @@ def courseGrade():
 
 if __name__ == "__main__":
     courseGrade()
-    
-    
