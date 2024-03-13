@@ -1,9 +1,9 @@
 #Name: Xander Konell
 #Hour: 3
+
 def fileNameChange():
     #type your code here
-    input_file_name = input("")
-
+    input_file_name = str(input(""))
     try:
         with open(input_file_name, 'r') as file:
             for line in file:
@@ -12,7 +12,6 @@ def fileNameChange():
                 print(modified_file_name)
     except FileNotFoundError:
         print("File not found!")
-    return
-
+        
 if __name__ == '__main__':
-    fileNameChange()
+        fileNameChange()
